@@ -76,8 +76,11 @@ header
     align-items: center;
     padding: 20px 310px;
     margin-bottom: 100px;
-    /*position: fixed;*/
+    position: fixed;
     width: 100%;
+    left: 0;
+    top: 0;
+    z-index: 3;
 
     
 }
@@ -91,6 +94,10 @@ header
 main
 
 */
+
+body {
+    padding-top: 150px;
+}
 
 .main-container {
     /*background-color: aqua;*/
@@ -132,6 +139,10 @@ main
     right: 0;
     top: 9px;
     z-index: 2;
+}
+
+.heart:hover {
+    color: red;
 }
 
 .tipologia{
