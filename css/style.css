@@ -46,6 +46,15 @@ img {
 
 }
 
+.sosten-b {
+    padding: 8px 8px;
+    background-color: green;
+    color: #ffffff;
+    position: absolute;
+    bottom: 100px;
+
+}
+
 .red {
     color: red;
 }
@@ -63,9 +72,9 @@ header
 .header-container{
     background-color: #ff6900;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
-    padding: 20px 270px;
+    padding: 20px 310px;
     margin-bottom: 100px;
     /*position: fixed;*/
     width: 100%;
@@ -84,7 +93,7 @@ main
 */
 
 .main-container {
-    background-color: aqua;
+    /*background-color: aqua;*/
     width: 1380px;
     display: flex;
     flex-wrap: wrap;
@@ -94,6 +103,8 @@ main
     
 
 }
+
+
 
 .card {
     width: calc((100% - 40px) / 3);
@@ -106,7 +117,7 @@ main
         position: absolute;
         top: 0;
         left: 0;
-        z-index: 5;
+        z-index: 1;
 }
 
 .card:hover .sopra {
@@ -120,6 +131,12 @@ main
     position: absolute;
     right: 0;
     top: 9px;
+    z-index: 2;
+}
+
+.tipologia{
+    position: relative;
+    z-index: 2;
 }
 
 
