@@ -25,33 +25,7 @@ img {
     width: 447px;
 }
 
-.sconto{
-    padding: 8px 8px;
-    background-color: red;
-    color: #ffffff;
-    position: absolute;
-    bottom: 100px;
-    left: 0px;
-}
 
-.sosten {
-    padding: 8px 8px;
-    background-color: green;
-    color: #ffffff;
-    position: absolute;
-    bottom: 100px;
-    left: 55px;
-
-}
-
-.sosten-b {
-    padding: 8px 8px;
-    background-color: green;
-    color: #ffffff;
-    position: absolute;
-    bottom: 100px;
-
-}
 
 .red {
     color: red;
@@ -112,8 +86,32 @@ body {
     padding: 15px 0;
     gap: 20px;
     margin-bottom: 50px;
-    
+}
 
+.sconto{
+    padding: 8px 8px;
+    background-color: red;
+    color: #ffffff;
+    position: absolute;
+    bottom: 100px;
+    left: 0px;
+}
+
+.sosten {
+    padding: 8px 8px;
+    background-color: green;
+    color: #ffffff;
+    position: absolute;
+    bottom: 100px;
+    left: 55px;
+}
+
+.sosten-b {
+    padding: 8px 8px;
+    background-color: green;
+    color: #ffffff;
+    position: absolute;
+    bottom: 100px;
 }
 
 
@@ -126,10 +124,10 @@ body {
 
 .card .sopra {
     display: none;
-        position: absolute;
-        top: 0;
-        left: 0;
-        z-index: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
 }
 
 .card:hover .sopra {
@@ -167,11 +165,14 @@ footer
     display: flex;
     justify-content: space-between;
     color: #ffffff;
-
 }
 
 .footer h3{
     padding-bottom: 20px;
+}
+
+.icon {
+    font-size: 20px;
 }
 
 
