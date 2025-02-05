@@ -8,7 +8,7 @@ reset
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family:  'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family:  sans-serif;
     
 }
 
@@ -41,30 +41,43 @@ header
 
 */
 
-.header-container{
+.header-container-big{
     background-color: #ff6900;
     display: flex;
-    justify-content: space-between;
+    justify-content: center; 
     align-items: center;
-    padding: 20px 310px;
-    margin-bottom: 100px;
+    padding: 20px;
     position: fixed;
     width: 100%;
     left: 0;
     top: 0;
-    z-index: 3;  
+    z-index: 1;  
+    box-shadow: 0 1px 3px 0px #777;
 }
 
-.header-left{
+.header-container {
+    display: flex;  
+    justify-content: space-between; 
+    align-items: center;
+    width: 100%;  
+    max-width: 1390px;  
+    margin: 0 auto; 
+}
+
+
+.header-menu{
     font-weight: bold;
 }
+
 
 .header-container >a {
     font-weight: 500;
 }
+    
 
 .logo {
     width: 135px;
+    display: inline-block;
 }
 
 /*
@@ -79,7 +92,7 @@ body {
 
 .main-container {
     /*background-color: aqua;*/
-    width: 1380px;
+    width: 1390px;
     display: flex;
     flex-wrap: wrap;
     margin: 0 auto;
@@ -117,9 +130,11 @@ body {
 
 
 .card {
-    width: calc((100% - 40px) / 3);
+    width: calc((1390px - 40px) / 3);
+    flex-shrink: 0;
     position: relative;
     display: inline-block;
+    
 }
 
 .card .sopra {
@@ -127,11 +142,11 @@ body {
     position: absolute;
     top: 0;
     left: 0;
-    z-index: 1;
+    
 }
 
 .card:hover .sopra {
-    display: inline;
+    display: block;
 }
 
 .heart {
@@ -141,7 +156,7 @@ body {
     position: absolute;
     right: 0;
     top: 9px;
-    z-index: 2;
+    
 }
 
 .heart:hover {
@@ -150,7 +165,7 @@ body {
 
 .tipologia{
     position: relative;
-    z-index: 2;
+    
 }
 
 /*
